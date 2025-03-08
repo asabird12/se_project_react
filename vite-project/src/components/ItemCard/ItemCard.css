@@ -1,0 +1,23 @@
+.itemCard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 325px;
+}
+
+.itemCard__title {
+  position: absolute;
+  font-family: "CabinetGrotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  top: 15px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.itemCard__card {
+  width: 100%;
+  border-radius: 19px;
+}
