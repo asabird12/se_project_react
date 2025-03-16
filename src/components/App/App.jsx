@@ -53,6 +53,7 @@ function App() {
         name=""
         activeModal={activeModal}
         onClose={onClose}
+        isOpen={activeModal === "add-garment"}
       >
         <label htmlFor="name" className="modal__label">
           Name{""}
@@ -63,7 +64,7 @@ function App() {
             placeholder="Name"
           />
         </label>
-        <label htmlFor="imageUrl" className="modal__label" image>
+        <label htmlFor="imageUrl" className="modal__label">
           Image{""}
           <input
             type="url"
